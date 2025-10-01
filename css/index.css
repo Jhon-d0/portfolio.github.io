@@ -1,7 +1,6 @@
 
 /* ESTILO GERAL */
 
-
 :root{
     --verde-escuro: #031716;
     --verde: #032f30;
@@ -233,10 +232,16 @@ section.topo-do-site .btn-contato{
 }
 
 .circle-img{
-    width: 100%;
+    width: 95%;
+    height: 95%;
+    padding-top: 5px;
+    padding-right: 5px;
     border: 1px solid var(--azul-claro);
     border-radius: 50%;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
